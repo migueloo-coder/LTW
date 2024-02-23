@@ -4,20 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <style>
+        .back-to-top {
+            background-color: #59bfde; 
+            color: white;
+            padding: 11px 10px; 
+            border: none; 
+            border-radius: 5px; 
+            font-size: 16px; 
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer; 
+            text-decoration: none; 
+            align-items: center; 
+            justify-content: center; 
+        }
+        .back-to-top img {
+            margin-right: 8px; 
+        }
+        .back-to-top:hover {
+            background-color: #2980b9; 
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {         
+            padding: 8px;
+            text-align: left; 
+        }
+        .image-cell img {
+            width: 400px;
+            height: auto; 
+        }
+        .image-cell1 img {
+            width: 300px;
+            height: auto; 
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Pagina Principal Ejercicios de laboratorio 1</h1>  
+        <h1>Início Exercícios de laboratório 1</h1>  
     </header>
-    <nav>
-        <imagen>
-            
-        </imagen>
-        <ul>
-            <button onclick="location.href='login.html'">Login</button>
-            <button onclick="location.href='comentario.html'">Comentarios</button>
-            <button onclick="location.href='fuc.html'">FUC</button>
-        </ul>
-    </nav>
+    <article>
+        <h3>Exercícios</h3>
+        <h4>Extraído de: </h4>
+        <a href="https://elearn2324.upt.pt/pluginfile.php/43198/mod_resource/content/2/PT_HTML_exercicios.pdf">Moodle Unidade LTW</a></br>
+        <table>
+            <tr>
+              <th>Pagina 1</th>
+              <th>Pagina 2</th>
+              <th>Pagina 3</th>
+            <tr>
+              <td class="image-cell"><img src="./img/pag1.png"></td>
+              <td class="image-cell"><img src="./img/pag2.png"></td>
+              <td class="image-cell"><img src="./img/pag3.png"></td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="login.html" class="back-to-top">
+                        <img src="./img/top.svg"/>
+                        Login
+                      </a> 
+                </td>
+                <td>
+                    <a href="comentario.html" class="back-to-top">
+                        <img src="./img/top.svg"/>
+                        Comentario
+                      </a> 
+                </td>
+                <td>
+                    <a href="fuc.html" class="back-to-top">
+                        <img src="./img/top.svg"/>
+                        FUC
+                      </a> 
+                </td>
+              </tr>
+          </table>
+       
+      </article>
+      <article>
+        <h3>Informação</h3>
+        <a class="image-cell1"><img src="./img/miguelp.JPEG"></a></br>
+        <a href="https://siupt.upt.pt/inscricao/aluno_inscricoes.php">Miguel Angel Pinzon Caro</a></br>
+        <a href="https://www.upt.pt/inicio/cursos/licenciaturas-departamentos/licenciatura-em-engenharia-informatica/">Engenharia Informatica</a></br>
+        <a href="https://siupt.upt.pt/aulas/ficha_uc_impressao.php?df_id=6375">Laboratorio de Tecnollogias Web</a></br>
+        <a href="https://github.com/migueloo-coder">GitHub Miguel</a></br>
+         </br>
 </body>
 </html>

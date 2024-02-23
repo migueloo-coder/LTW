@@ -4,7 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FUC</title>
+    <style>
+        .back-to-top {
+            background-color: #59bfde; 
+            color: white;
+            padding: 11px 10px; 
+            border: none; 
+            border-radius: 5px; 
+            font-size: 16px; 
+            font-family: Arial, Helvetica, sans-serif;
+            cursor: pointer; 
+            text-decoration: none; 
+            align-items: center; 
+            justify-content: center; 
+        }
+        .back-to-top img {
+            margin-right: 8px; 
+        }
+        .back-to-top:hover {
+            background-color: #2980b9; 
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {         
+            padding: 8px;
+            text-align: left; 
+        }
+        .image-cell img {
+            width: 100px;
+            height: auto; 
+        }
+      </style>
 </head>
+
 <body>
     <header>
         <h1>Ficha da Unidade Curricular: </h1>
@@ -25,7 +60,10 @@
                 <li>Programar aplicações web usando HTML5, CSS3 e JavaScript 5 fazendo uso de armazenamento local, processamento assincrono e redireccionamento no servidor (através de PHP/Node js) para web services existentes.</li>
                 <li>Inferir, através da experimentação e avaliação crítica, na importância das frameworks e APIs JavaScript e CSS, no desenvolvimento de aplicações web.</li>
             </ul>
-            <button onclick="location.href='index.html'">Back to Top</button>
+            <a href="#" class="back-to-top">
+                <img src="./img/top.svg" />
+                Back to Top
+              </a>  
          </article>
          <article>
             <h4>Conteudos Programaticos</h4>
@@ -68,12 +106,109 @@
                 </dl>
             </ol>
          </article>
-         <button onclick="location.href='index.html'">Back to Top</button>
+         <a href="#" class="back-to-top">
+            <img src="./img/top.svg"/>
+            Back to Top
+          </a>       
     </section>
     </br>
     <section>
         <h2>Bibliografia</h2>
-        
+        <article>
+            <h3>Recomendada</h3>
+            <table>
+                <tr>
+                  <th>Autor(es)</th>
+                  <th>Ano</th>
+                  <th>Titulo</th>
+                  <th>Edição/editora</th>
+                  <th>ISBN</th>
+                  <th>Titulo</th>
+                <tr>
+                  <td>Portela, Filipe; Queirós, Ricardo</td>
+                  <td>(2018)</td>
+                  <td>Introdução ao desenvolvimento moderno para a Web</td>
+                  <td>1ª edição, FCA, Lisboa</td>
+                  <td>978-972-722-897-3</td>
+                  <td class="image-cell"><img src="https://www.fca.pt/fotos/produtos/d_9789727228973_capa_introdu_o_ao_desenvolvimento_moderno_para_a_web.jpg"></td>
+                </tr>
+                <tr>
+                  <td>Pereira, Alexandre; Poupa, Carlos</td>
+                  <td>(2017)</td>
+                  <td>Linguagens Web</td>
+                  <td>6ª Edição Revista e Atualizada; Edições Sílabo</td>
+                  <td></td>
+                  <td class="image-cell"><img src="https://img.wook.pt/images/linguagens-webalexandrepereira/MXwyMDI4NjIxNHwxNjEzNzc0MnwxNTA2NDY2ODAwMDAw/502x"></td>
+                </tr>
+                <tr>
+                  <td>Abreu, Luis</td>
+                  <td>(2016)</td>
+                  <td>NODE JS- CONSTRUÇÃO DE APLICAÇÕES WEB</td>
+                  <td>FCA, Lisboa</td>
+                  <td>978-972-722-860-7</td>
+                  <td class="image-cell"><img src="img/nodejs.png"></td>
+                </tr>                
+              </table>
+            <a href="#" class="back-to-top">
+                <img src="./img/top.svg"/>
+                Back to Top
+              </a> 
+          </article>
+          <article>
+            <h3>Complementar</h3>
+            <table>
+                <tr>
+                  <th>Autor(es)</th>
+                  <th>Ano</th>
+                  <th>Titulo</th>
+                  <th>Edição/editora</th>
+                  <th>ISBN</th>
+                  <th>Titulo</th>
+                <tr>
+                  <td>Abreu, Luís</td>
+                  <td>(2015)</td>
+                  <td>HTML5</td>
+                  <td>4a edição, FCA, Lisboa</td>
+                  <td>978-972-722-821-8</td>
+                  <td class="image-cell"><img src="https://www.fca.pt/fotos/produtos/d_9789727227396_html5_2ed_a_a.jpg"></td>
+                </tr>
+                <tr>
+                  <td>Remoaldo, Pedro</td>
+                  <td>(2011)</td>
+                  <td>CSS3</td>
+                  <td>FCA, Lisboa</td>
+                  <td>978-972-722-731-0</td>
+                  <td class="image-cell"><img src="https://www.fca.pt/fotos/produtos/d_9789727227310_css3-myti.jpg"></td>
+                </tr>
+                <tr>
+                  <td>Abreu, Luis</td>
+                  <td>(2015)</td>
+                  <td>JAVASCRIPT 6</td>
+                  <td>FCA, Lisboa</td>
+                  <td>978-972-722-815-7</td>
+                  <td class="image-cell"><img src="https://www.fca.pt/fotos/produtos/d_9789727228157_javascript_6.jpg"></td>
+                </tr>                
+              </table>
+            <a href="#" class="back-to-top">
+                <img src="./img/top.svg"/>
+                Back to Top
+              </a> 
+          </article>
+          <article>
+            <h3>Webgrafia</h3>
+            <a href="#">HTMLS specification, W3C Candidate Recommendation 6 August 2013</a></br>
+            <a href="#">CSS standards and drafts</a></br>
+            <a href="#">ECMAScript specification, Standard ECMA-262</a></br>
+            <a href="#">Mozilla Developer Network</a></br>
+             </br>
+            <a href="#" class="back-to-top">
+                <img src="./img/top.svg"/>
+                Back to Top
+              </a> 
+            </br>
+          </article>
     </section>
+    </br>
+    <button onclick="location.href='index.html'">Index</button>
 </body>
 </html>
